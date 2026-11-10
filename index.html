@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIRE CONTROL | Recubrimientos Industriales</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:#0a1a2e;color:#fff}
+header{background:#fff;display:flex;justify-content:space-between;align-items:center;padding:8px 5%;position:sticky;top:0;z-index:10;box-shadow:0 2px 10px rgba(0,0,0,.3)}
+header img.logo-img{height:60px;object-fit:contain}
+nav a{color:#0a1a2e;text-decoration:none;margin-left:20px;font-size:13px;font-weight:bold}
+nav a.active{color:#e60000;border-bottom:2px solid #e60000;padding-bottom:4px}
+.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.25)),url('proyecto4.jpg') center/cover;padding:70px 5%;display:flex;flex-wrap:wrap;gap:30px;align-items:center;min-height:520px}
+.hero-text{flex:1;min-width:300px}
+.hero-text h1{font-size:48px;line-height:.95;text-shadow:0 2px 10px #000}
+.hero-text h1 span{color:#ff2a2a}
+.hero-text p{margin:15px 0;color:#eee;line-height:1.5}
+.features{display:flex;gap:20px;margin:20px 0;flex-wrap:wrap}
+.features div{border-left:2px solid #fff;padding-left:12px;font-size:13px;line-height:1.4;background:rgba(0,0,0,.4);padding:10px}
+.btn{background:#e60000;color:#fff;padding:14px 22px;border-radius:30px;text-decoration:none;display:inline-block;font-weight:bold}
+.servicios{background:#fff;color:#111;padding:50px 5%}
+.servicios h2{text-align:center;font-size:28px;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px}
+.card img{width:100%;height:200px;object-fit:cover;border-radius:8px}
+.card h3{margin:12px 0 8px;font-size:16px}
+.card ul{list-style:none;font-size:14px;line-height:1.8;color:#444}
+.card ul li:before{content:"✓ ";color:#e60000;font-weight:bold}
+.proyectos{background:#0a1a2e;padding:40px 5%}
+.proyectos h2{border-left:4px solid #e60000;padding-left:10px;margin-bottom:8px}
+.proyectos p{color:#ccc;margin-bottom:20px}
+.galeria{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.galeria figure{position:relative;overflow:hidden;border-radius:10px}
+.galeria img{width:100%;height:240px;object-fit:cover;display:block}
+.galeria figcaption{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(transparent,rgba(0,0,0,.85));padding:30px 12px 10px;font-size:13px;font-weight:bold}
+.contacto-section{background:#fff;color:#111;padding:40px 5%;display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.contacto-section h3{border-left:4px solid #e60000;padding-left:10px;margin-bottom:15px}
+.contacto{font-size:15px;line-height:2.1}
+.contacto img.mini-logo{height:50px;margin-bottom:10px}
+.whatsapp{background:#25D366;color:#fff;padding:14px 18px;border-radius:10px;display:inline-flex;align-items:center;gap:8px;text-decoration:none;font-weight:bold;margin-top:10px}
+form input,form textarea{width:100%;padding:12px;margin-bottom:10px;border:1px solid #ccc;border-radius:8px;font-size:14px}
+form button{background:#e60000;color:#fff;border:none;padding:14px;width:100%;border-radius:8px;font-weight:bold;font-size:15px}
+footer{background:#fff;color:#111;border-top:3px solid #e60000;padding:15px 5%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;font-weight:bold;letter-spacing:1px}
+footer img{height:45px}
+@media(max-width:700px){nav{display:none}.hero-text h1{font-size:36px}.galeria{grid-template-columns:1fr}.contacto-section{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+
+<header>
+  <img class="logo-img" src="logo.png" alt="FIRE CONTROL Logo">
+  <nav><a href="#" class="active">INICIO</a><a href="#servicios">SERVICIOS</a><a href="#proyectos">PROYECTOS</a><a href="#contacto">CONTACTO</a></nav>
+</header>
+
+<section class="hero">
+  <div class="hero-text">
+    <p>SOLUCIONES EN</p>
+    <h1>RECUBRIMIENTOS<br>INDUSTRIALES<br><span>Y PROTECCIÓN PASIVA<br>CONTRA EL FUEGO</span></h1>
+    <p>Suministro y aplicación de pinturas industriales, protección contra incendios y arriendo de elevadores.</p>
+    <div class="features">
+      <div>🛡️ Protección<br>contra incendios</div>
+      <div>🎨 Pinturas<br>industriales</div>
+      <div>🏗️ Arriendo de<br>elevadores</div>
+    </div>
+    <a class="btn" href="https://wa.me/56984466091?text=Hola%20FIRE%20CONTROL,%20quiero%20cotizar" target="_blank">SOLICITA TU COTIZACIÓN →</a>
+  </div>
+</section>
+
+<section class="servicios" id="servicios">
+  <h2>NUESTROS SERVICIOS</h2>
+  <div class="grid">
+    <div class="card"><img src="proyecto6.jpg"><h3>PINTURAS INTUMESCENTES</h3><ul><li>Protección pasiva contra incendios</li><li>Sistemas RF-30, RF-60, RF-90 y RF-120</li><li>Aplicación según especificaciones</li></ul></div>
+    <div class="card"><img src="proyecto5.jpg"><h3>RECUBRIMIENTOS INDUSTRIALES</h3><ul><li>Anticorrosivos y esmaltes</li><li>Poliuretanos y otros sistemas</li><li>Preparación y aplicación profesional</li></ul></div>
+    <div class="card"><img src="proyecto3.jpg"><h3>ARRIENDO DE ELEVADORES</h3><ul><li>Plataformas tipo tijera y brazos articulados</li><li>Equipos seguros y certificados</li><li>Arriendo por día, semana o mes</li></ul></div>
+  </div>
+</section>
+
+<section class="proyectos" id="proyectos">
+  <h2>PROYECTOS REALIZADOS</h2>
+  <p>Trabajos reales ejecutados por FIRE CONTROL en estructuras metálicas y hormigón.</p>
+  <div class="galeria">
+    <figure><img src="proyecto1.jpg"><figcaption>Edificio en Hormigón - Protección Pasiva</figcaption></figure>
+    <figure><img src="proyecto2.jpg"><figcaption>Galpón Industrial - Estructura Metálica</figcaption></figure>
+    <figure><img src="proyecto3.jpg"><figcaption>Aplicación en Altura con Plataforma</figcaption></figure>
+    <figure><img src="proyecto4.jpg"><figcaption>Estructura Blanca - Pintura Intumescente</figcaption></figure>
+    <figure><img src="proyecto5.jpg"><figcaption>Planta Industrial - Recubrimiento Terminado</figcaption></figure>
+    <figure><img src="proyecto6.jpg"><figcaption>Losas y Vigas - Recubrimiento Blanco RF</figcaption></figure>
+  </div>
+</section>
+
+<section class="contacto-section" id="contacto">
+  <div>
+    <img class="mini-logo" src="logo.png" alt="FIRE CONTROL">
+    <h3>CONTÁCTANOS</h3>
+    <div class="contacto">👤 <b>Sebastián Burgos Gómez</b><br>📞 +56 9 8446 6091<br>✉️ sebastianburgos814@gmail.com<br>✉️ Sburgos.firecontrol@outlook.com<br>📍 La Florida, Santiago</div>
+    <a class="whatsapp" href="https://wa.me/56984466091?text=Hola%20FIRE%20CONTROL,%20quiero%20cotizar" target="_blank">💬 COTIZA POR WHATSAPP →</a>
+  </div>
+  <div><h3>SOLICITA TU COTIZACIÓN</h3>
+    <form onsubmit="window.open('https://wa.me/56984466091?text='+encodeURIComponent('Hola, soy '+this.nombre.value+' quiero cotizar: '+this.mensaje.value),'_blank');return false;">
+      <input name="nombre" placeholder="Tu nombre" required>
+      <input name="telefono" placeholder="Tu teléfono">
+      <textarea name="mensaje" rows="3" placeholder="¿Qué necesitas? Ej: Pintura intumescente RF-60 para galpón" required></textarea>
+      <button>ENVIAR POR WHATSAPP</button>
+    </form>
+  </div>
+</section>
+
+<footer><img src="logo.png" alt="FIRE CONTROL"><div>EXPERIENCIA • CALIDAD • SEGURIDAD</div></footer>
+
+</body>
+</html>
